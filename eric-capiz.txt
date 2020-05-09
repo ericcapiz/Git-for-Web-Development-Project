@@ -1,0 +1,134 @@
+ completed codepen 
+    https://codepen.io/hatzhero85/pen/NWGXVjM
+ 
+ 1. What is Semantic HTML? 
+    Shows meaning to the web page.
+
+2. What is HTML used for? 
+    Used to structure webpages.
+
+3. What is an attribute and where do we put it? 
+    Attributes are used to change/alter an element. Example <a href="#"> 
+    the href is the attribute. It gets put along with the element.
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+    H1 Tag is usually for headers/titles. It makes the font-size bigger than the rest.
+
+5. Name two tags that have required attributes
+    Anchor tags require href to link a new page and img tags needs src attribute to show where the image is coming from.
+
+6. What do we put in the head of our HTML document? 
+    Title,script,meta,link tags go in the head.
+7. What is an id? 
+    ID is used to define one element and will be selected by using the # symbol.
+
+8. What elements can I add an id to? 
+    Usually Div's and Sections will have ID's.
+
+9. How many times can I use the same id on a page?
+    Once
+
+10. What is a class? 
+    Is used to specify one or multiple class names for an element. Selected by using the . symbole.
+
+11. What elements can I add a class to? 
+    All elements can have a class.
+
+12. How many times can I use the same class on a page? 
+    Multiple times.
+
+13. How do I get my link to open in a new tab?
+    <a href="www.google.com" target="_blank"> The target attribute with _blank will open new tab.
+
+14. What is the alt attribute in the image tag used for? 
+    Alt attribute is used to describe the picture if it cant load or a screen reader is being used.
+
+15. How do I reference an id?
+    Used with a # symbol. Example <div id="div"> and then you can call upon id in css by #div{}
+
+16. What is the difference between a section and a div
+    Section is semantic whereas div has no special meaning for its contents.
+    
+17. What is CSS used for? 
+    Style the webpage.
+       
+18. How to we select an element? Example - every h2 on the page
+    h2{
+        color:green;
+    }
+    
+19. What is the difference between a class and an id? - Give me an example of when I might use each one.
+    Classes can be applied to multiple elements vs and ID will only be defined by one element.
+    You would use classes with different elements on the page can have the same style.
+    .class{
+        font-size:20px;
+    }
+    #ID{
+        margin:0;
+    }
+
+20. How do we select classes in CSS?
+    By using a . then the name of the class. EX: .class{}
+    
+21. How do we select a p element with a single class of “human””?
+    p.human{}
+
+22. What is a parent child selector? When would this be useful?
+
+    
+23. How do you select all links within a div with the class of sidebar?
+    a.sidebar *{
+        
+    }
+
+24. What is a pseudo selector?
+    Commonly used 
+    
+25. What do we use the change the spacing between lines?
+    line-height
+
+26. What do we use to change the spacing between letters?
+    letter-spacing
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase, lowercase, capitalize;
+
+28. How do I add a 1px border around my div that is dotted and black?
+    div{
+        border: 1px dotted black;
+    }
+
+29. How do I select everything on the page? 
+    *{}
+    
+30. How do I write a comment in CSS?
+    /*This is commented*/
+    
+31. How do I find out what file I am in, when I am using the command line? 
+    type in pwd
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    type in ls
+    
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    git rm this will remove the file from the repo.
+    
+34. Why should I use version control? 
+    To help solve for bug,glitches,etc. Also allows for multiple people to work on the same file by creating branches that can be merged to the origin master.
+
+    
+35. How often should I commit to github?
+        I typically commit often especially right after fixing a bug/glitch/error
+    
+36. What is the command we would use to push our repo up to github? 
+    git push origin -u origin master
+    
+37. Walk me through Lambda's git flow.
+    Student will create OWN version of Repo (Fork)
+    Student will add TL as a collaborator
+    Student then will Clone Repo
+    Student will then create a branch  git checkout -b 'firstName-lastName'
+    Student will then submit their PR into the new branch.
+    Student will use their own student fork as the base (compare across forks).
+    Student will add their TL as a reviewer on the PR
+    TL then will count the HW as done by merging the HW back into master student fork
